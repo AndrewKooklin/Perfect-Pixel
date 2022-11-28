@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="images/icon.ico" type="image/x-icon">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -51,11 +52,11 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="search flex">
-				<input class="text" type="text" placeholder="Что будем искать?">
+			<div id="sclose" class="search flex">
+				<input id="itext" class="text" type="text" placeholder="Что будем искать?">
 				<button class="search-icon" type="submit">
 				</button>
-				<button class="search-closed">
+				<button id="btn-close" class="search-closed" type="reset" onclick="document.getElementById('itext').value = ''">
 				</button>
 			</div>
 		</div>
@@ -480,5 +481,7 @@
 	</footer>
 
 </body>
+
+<script src="js/search-close.js"></script>
 
 </html>

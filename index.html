@@ -52,7 +52,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div id="sclose" class="search flex">
+			<div class="search flex">
 				<input id="itext" class="text" type="text" placeholder="Что будем искать?">
 				<button class="search-icon" type="submit">
 				</button>
@@ -141,15 +141,15 @@
 						<label for="tab-1" class="tab-link">
 							1 шаг
 						</label>
-						<input type="radio" name="tabs" id="tab-2" class="tab-input" checked>
+						<input type="radio" name="tabs" id="tab-2" class="tab-input">
 						<label for="tab-2" class="tab-link">
 							2 шаг
 						</label>
-						<input type="radio" name="tabs" id="tab-3" class="tab-input" checked>
+						<input type="radio" name="tabs" id="tab-3" class="tab-input">
 						<label for="tab-3" class="tab-link">
 							3 шаг
 						</label>
-						<input type="radio" name="tabs" id="tab-4" class="tab-input" checked>
+						<input type="radio" name="tabs" id="tab-4" class="tab-input">
 						<label for="tab-4" class="tab-link">
 							4 шаг
 						</label>
@@ -274,10 +274,10 @@
 					Часто задаваемые вопросы
 				</h2>
 				<div class="accordeon">
-					<input type="checkbox" name="accord" id="accord-1" />
+					<input class="accordeon-input" type="checkbox" name="accord" id="accord-1" />
 					<label for="accord-1" class="question-head">Из чего формируется конечная стоимость проекта?</label>
 					<div class="answer">
-						<p>
+						<p class="answer-text">
 							Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
 							новым
 							свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
@@ -305,7 +305,7 @@
 					<label for="accord-2" class="question-head">У меня есть свой проект. Сможем ли мы его доработать /
 						реализовать?</label>
 					<div class="answer">
-						<p>
+						<p class="answer-text">
 							Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
 							новым
 							свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
@@ -332,7 +332,7 @@
 					<input type="checkbox" name="accord" id="accord-3" />
 					<label for="accord-3" class="question-head">Я выбираю между разными компаниями. В чём ваше отличие?</label>
 					<div class="answer">
-						<p>
+						<p class="answer-text">
 							Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
 							новым
 							свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
@@ -360,7 +360,7 @@
 					<label for="accord-4" class="question-head">Могу ли я делегировать вам работу / согласование с подрядчиком /
 						организацией?</label>
 					<div class="answer">
-						<p>
+						<p class="answer-text">
 							Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
 							новым
 							свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
@@ -387,7 +387,7 @@
 					<input type="checkbox" name="accord" id="accord-5" />
 					<label for="accord-5" class="question-head">Могу ли я вернуть деньги на каком-либо из этапов работ?</label>
 					<div class="answer">
-						<p>
+						<p class="answer-text">
 							Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
 							новым
 							свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
@@ -424,25 +424,25 @@
 						<a href="#" class="footer-link-logo"></a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text1"></a>
+						<a href="#" class="footer-link">О нас</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text2"></a>
+						<a href="#" class="footer-link">Проекты</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text3"></a>
+						<a href="#" class="footer-link">Отзывы</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text4"></a>
+						<a href="#" class="footer-link">Договор оферты</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text5"></a>
+						<a href="#" class="footer-link">Договор подряда</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text6"></a>
+						<a href="#" class="footer-link">Кофиденциальность</a>
 					</li>
 					<li>
-						<a href="#" class="footer-link footer-link-text7"></a>
+						<a href="#" class="footer-link">Партнёрское соглашение</a>
 					</li>
 				</ul>
 				<div class="social flex">
@@ -458,7 +458,7 @@
 				<form class="fotm-data flex flex-vertical" action="https://jsonplaceholder.typicode.com/posts" method="post">
 					<input class="input-text flex" type="text" placeholder="Фамилия, имя и отчество*">
 					<input class="input-text flex" type="text" placeholder="E-mail*">
-					<textarea class="input-text message-text flex" type="text" placeholder="Сообщение"></textarea>
+					<textarea class="message-text flex" type="text" placeholder="Сообщение"></textarea>
 					<div class="form-buttom flex">
 						<button class="btn btn-form">Отправить данные</button>
 						<div class="confirm-content flex">
